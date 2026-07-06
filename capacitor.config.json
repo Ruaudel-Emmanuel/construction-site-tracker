@@ -1,0 +1,27 @@
+{
+  "appId": "fr.rennesdev.suiviinterventions",
+  "appName": "Suivi Interventions",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "Camera": {
+      "permissionType": "prompt"
+    },
+    "Geolocation": {
+      "requestPermissions": true
+    },
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#1a1a2e",
+      "showSpinner": false
+    }
+  },
+  "android": {
+    "allowMixedContent": true,
+    "backgroundColor": "#1a1a2e"
+  },
+  "ios": {
+    "contentInset": "automatic",
+    "backgroundColor": "#1a1a2e"
+  }
+}
